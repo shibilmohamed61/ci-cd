@@ -1,0 +1,14 @@
+name: first workshop
+on:
+  push:
+ jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      run-on: ubuntu-latest
+      steps:
+       - name: checkout code
+       uses: action/checkout@v4
+       - names: print build started
+       run:echo "build started  "
+      
